@@ -9,13 +9,9 @@
         },
         "AID": {
             "description": "AlterID",
-            "value": "64"
-        },
-        "WSPATH": {
-            "description": "WebSocket Path",
-            "value": "/"
-        }
-    },
+            "value": "5802"
+},
+
     "website": "https://github.com/chengua/quni/",
     "repository": "https://github.com/chengua/quni",
     "stack": "container"
