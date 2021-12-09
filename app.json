@@ -1,18 +1,22 @@
 {
-	"name": "V2Ray",
-	"description": "Deploy V2ray on Heroku.",
-	"keywords": ["V2Ray"],
-	"env": {
-		"UUID": {
-			"description": "V2Ray UUID",
-			"value": "41b67fde-6baf-489f-878b-bce3ad2a6114"
-		}
-},
-	"AID": {
+    "name": "V2Ray",
+    "description": "Deploy V2ray on Heroku.",
+    "keywords": ["V2Ray"],
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "41b67fde-6baf-489f-878b-bce3ad2a6114"
+        },
+        "AID": {
             "description": "AlterID",
             "value": "64"
-},
-	"website": "https://github.com/chengua/quni",
-	"repository": "https://github.com/chengua/quni",
-	"stack": "container"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
+        }
+    },
+    "website": "https://github.com/chengua/quni/",
+    "repository": "https://github.com/chengua/quni",
+    "stack": "container"
 }
